@@ -2,7 +2,13 @@
 @use '@nebular/theme/styles/theming' as *;
 @use '@nebular/theme/styles/themes/cosmic';
 
+
+$nb-enable-css-custom-properties: true; // <-- enable css custom properties
+
 $nb-themes: nb-register-theme((
+
+text-button-giant-font-size:	30px
+
 
   // add your variables here like:
 
@@ -17,3 +23,4 @@ $nb-themes: nb-register-theme((
   // color-primary-900: #091c7a,
 
 ), cosmic, cosmic);
+
