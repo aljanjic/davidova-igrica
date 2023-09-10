@@ -1,11 +1,13 @@
 
 # Angular15TicTacToe
 
-Fork of angular-15-tic-tac-toe repository.
 
 Deployed on : https://davidova-igrica.web.app/ 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.8.
+
+Fork of angular-15-tic-tac-toe repository.
+
 
 ## Development server
 
