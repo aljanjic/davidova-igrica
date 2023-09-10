@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/angular-15-tic-tac-toe",
+    "public": "dist/davidova-igrica",
     "ignore": [
       "firebase.json",
       "**/.*",

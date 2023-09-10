@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-15-tic-tac-toe'`, () => {
+  it(`should have as title 'davidova-igrica'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-15-tic-tac-toe');
+    expect(app.title).toEqual('davidova-igrica');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-15-tic-tac-toe app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('davidova-igrica app is running!');
   });
 });
